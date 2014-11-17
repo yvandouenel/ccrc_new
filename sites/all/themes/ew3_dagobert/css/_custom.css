@@ -1,0 +1,1771 @@
+body.html{
+    background : #BECED9 url(../images/fond_top.png) repeat-x 0 0;
+}
+body.front #over_body{
+    padding-bottom :150px;
+    background :url(../images/footer1.jpg) repeat-x 50% 100%;
+}
+.sidebar-first .region-sidebar-first {
+    margin-right: -196px;
+    width: 221px;
+}
+.sidebar-first #content {
+    margin-left: 241px;
+    margin-right: -980px;
+    width: 719px;
+}
+#secondary-menu{
+    display: none;
+}
+.droite{
+    float:right;
+    margin : 0 0 0 20px;
+}
+.gauche{
+    float:left;
+    margin : 0 20px 0 0;
+}
+.savoir_plus{
+
+}
+
+.clear{
+    clear:both;
+}
+#first-time{
+   display: none;
+}
+#over_body{
+    padding-bottom :150px;
+    background :url(../images/footer1.jpg) repeat-x 50% 100%;
+}
+.over_over_body{
+    background : url(../images/bgHeaderMenu.jpg) no-repeat 50% 68px;
+}
+.over_over_body_home{
+    background : url(../images/bgHeaderMenu_home.jpg) no-repeat 50% 68px;
+}
+#main{
+   margin-top: 50px;
+    
+}
+#header{
+    position : relative;
+    height:217px;
+}
+body.front #header{
+    position : relative;
+    height:328px;
+    border:1px solid red;
+}
+#footer{
+    /*background : url(../images/footer1.jpg) no-repeat 0 0;*/
+}
+.region-bottom{
+
+}
+/* basiques *******************************************************************/
+#main div#content a{
+    color : #981D22;
+}
+#main div#content h2 a,
+#main div#content h3 a{
+    color : #000000;
+}
+#main div#content h2 a:hover,
+#main div#content h3 a:hover{
+    color : #981D22;
+}
+/*titres **********************************************************************/
+#main h3{
+    color: #000000;
+    font-size: 1.2em;
+    font-family: "Viga", arial;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0.9em 0 0.5em;
+}
+/* tableaux *******************************************************************/
+body.section-communaute-de-communes table caption {
+    background-color: #DD9D17;
+    color : white;
+    border: 1px solid #333333;
+    padding : 4px;
+}
+body.section-communaute-de-communes table.sansbordure, 
+body.section-communaute-de-communes table.sansbordure td{
+    border:0;
+    text-align: center;
+}
+body.section-communaute-de-communes table.sansbordure caption {
+    background-color: white;
+    color : white;
+    border: 0;
+    padding : 0;
+}
+
+body.section-communaute-de-communes td,
+body.section-communaute-de-communes th{
+    border: 0px solid #333333;
+    border-bottom : 1px solid #43291B;
+    border-left: 1px solid #43291B;
+    padding: 3px;
+    vertical-align: top;
+    font-size: 0.9em;
+}
+
+body.section-communaute-de-communes table.table_fiche_elu td{
+    border: 0;
+    font-size: 1em;
+}
+body.section-communaute-de-communes td.alignRight,
+body.section-communaute-de-communes th.alignRight{
+    text-align: right;
+    white-space: nowrap;
+    padding-left :20px;
+}
+table.environnement td{
+    font-size: 0.7em;
+}
+table.environnement td,table.environnement th {
+    padding-left : 5px;
+}
+table.environnement th {
+    background-color: #99BF10;
+    font-size: 0.8em;
+}
+/* fil d'ariane ***************************************************************/
+.breadcrumb{
+    background-color: #4E9CD0;
+    border-radius : 8px 8px 8px 8px;
+    color : white;
+    margin-bottom : 20px;
+    padding : 5px 0 5px 15px;
+    font-size :0.9em;
+}
+body.section-communaute-de-communes .breadcrumb,
+body.section-inscription-newsletter .breadcrumb{
+    background-color: #DD9D17;
+}
+body.page-agenda .breadcrumb,body.node-type-agenda .breadcrumb,
+body.page-newsletters .breadcrumb{
+    background-color: #D80038;
+}
+body.page-publications .breadcrumb{
+    background-color: #D80038;
+}
+body.page-publications .breadcrumb{
+    background-color: #D80038;
+}
+body.section-tourisme-et-loisirs .breadcrumb{
+    background-color: #D40136;
+}
+body.section-petite-enfance .breadcrumb{
+    background-color: #EE8303;
+}
+body.section-environnement .breadcrumb{
+    background-color: #99BF10;
+}
+body.section-marches-publics .breadcrumb{
+    background-color: #629A00;
+}
+
+
+.breadcrumb li a{
+   color : white;
+}
+.section-jeunesse-emploi .breadcrumb{
+    background-color: #629A00;
+}
+
+/* menu bas gauche ************************************************************/
+div#block-menu-block-11 ul{/*block-menu-menu-menus-bas-gauche*/
+    margin:0;
+    padding :0;
+    position : relative;
+    top: 10px;
+}
+div#block-menu-block-11 ul li{
+    margin:0;
+    padding :0;
+    list-style: none;
+    float : left;
+}
+div#block-menu-block-11 ul li.first{
+   border-right : 1px dashed #40281E;
+}
+div#block-menu-block-11 ul li.last{
+   border-left : 1px dashed #40281E;
+}
+div#block-menu-block-11 ul li.first:hover{
+   border-right : 0;
+}
+div#block-menu-block-11 ul li a {
+   display : block;
+   border-radius : 8px 8px 8px 8px;
+   padding : 0 10px;
+   text-decoration : none;
+   color : #40281E;
+   text-transform: uppercase;
+   font-size: 0.8em;
+   font-family : arial,sans-serif;
+}
+div#block-menu-block-11 ul li a:hover{
+    background-color: #E4202E;
+    color : white;
+}
+/* menus bas centre ***********************************************************/
+#wrapperInnerFooter {
+    background-color: #43291A;
+    width: 960px;
+    height: 50px;
+    position: relative;
+    top:100px;
+    margin: 0 auto;
+}
+#wrapperInnerFooter ul li a:hover {
+    color: #CCC;
+}
+#wrapperInnerFooter ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+#wrapperInnerFooter ul li {
+    display: inline;
+    font-size: x-small;
+    padding: 0 5px 0 0;
+    list-style: none;
+}
+.fluxRSS {
+    position: relative;
+    left: 900px;
+    top: -70px;
+}
+.fluxRSS a {
+    background: url(../images/icons/fluxRSS.gif) no-repeat 0 0;
+    height: 43px;
+    width: 38px;
+    display: block;
+    text-indent: -9999px;
+}
+.fluxRSS a:hover {
+    background: url(../images/icons/fluxRSS.gif) no-repeat 0 100%;
+}
+/* bandeau ********************************************************************/
+#header{
+    display:block;
+}
+.region-header{
+    border : 1px solid transparent;
+}
+#header h1{
+    z-index:99;
+    position : absolute;
+    top :0px;
+    left :10px;
+}
+.view-images-bandeau-sauf-accueil ul{
+    list-style: none;
+}
+#block-views-849f3529968672247a046e4360dc46c1, #block-views-f3c9335c511be5b63b9b88a718f53bd9,
+#block-views-8f3b6b402cfd30f28b4b902e2e20c3cd,#block-views-c489abdf3d3ce6b1a2a507cfefac1ee5,
+#block-views-95268adf8f784c9484e21f9ae008cc0a,#block-views-611883c56353b879285ea483680cb68a{
+    clear:both;
+    margin : 67px 0 0 0;
+    height: 148px;
+    padding:0 0 0 118px;
+    overflow: hidden;
+}
+.view-images-bandeau-sauf-accueil{
+    z-index:9;
+    margin: 0;
+    padding:0;
+    height: 148px;
+    overflow: hidden;
+}
+.view-images-bandeau-sauf-accueil div{
+    margin: 0;
+    padding:0;
+    height: 148px;
+    overflow: hidden;
+}
+.view-images-bandeau-sauf-accueil div ul{
+    margin: 0;
+    padding:0;
+    margin : 0 0 0 30px;
+}
+
+#over_hb_all{
+    position : absolute;
+    top :68px;
+    left :159px;
+    z-index:10;
+}
+/* Diaporama ******************************************************************/
+
+#block-views-diaporama-accueil-block{
+    /*position : absolute;
+    top :68px;
+    left : 19px;
+    z-index:9;*/
+    margin:66px 0 0 0;
+    border:1px solid transparent;
+    width:956px;
+    height: 266px;
+}
+#over_hb_home{
+    position : absolute;
+    top :68px;
+    left :0;
+    z-index:10;
+}
+/*#views_slideshow_controls_text_diaporama_accueil-block{
+    position : absolute;
+    top : 150px;
+    left : 300px;
+    z-index:110;
+    border :1px solid red;
+}*/
+#views_slideshow_controls_text_diaporama_accueil-block a{
+    font-size : 0;
+}
+#views_slideshow_controls_text_previous_diaporama_accueil-block{
+    position : absolute;
+    top : 225px;
+    left : 20px;
+    display: block;
+    width :46px;
+    height :46px ;
+    background: url(../images/icons/flecheGSlider.png) no-repeat 0 0;
+    z-index:9999;
+}
+#views_slideshow_controls_text_next_diaporama_accueil-block{
+    position : absolute;
+    top : 225px;
+    left :912px;
+    display: block;
+    width :46px;
+    height :46px ;
+    background: url(../images/icons/flecheDSlider.png) no-repeat 0 0;
+    z-index:9999;
+}
+#views_slideshow_controls_text_pause_diaporama_accueil-block{
+    display: none;
+}
+#views_slideshow_controls_text_previous_diaporama_accueil-block:hover{
+    background: url(../images/icons/flecheGSlider.png) no-repeat 0 100%;
+}
+#views_slideshow_controls_text_next_diaporama_accueil-block:hover{
+    background: url(../images/icons/flecheDSlider.png) no-repeat 0 100%;
+}
+/* Menus hauts ****************************************************************/
+#block-menu-block-1{
+    margin :10px 0 0 0;
+    width: 265px;
+    padding : 0;
+    float : left;
+    height : 49px;
+    overflow: hidden;
+}
+#block-menu-block-1 ul{
+    padding : 0;
+    margin:0;
+}
+
+.menu-name-menu-menu-commodit-haut ul li{
+    padding : 0;
+    margin : 0;
+    float : left;
+    list-style: none;
+}
+.menu-name-menu-menu-commodit-haut ul li a{
+    display :block;
+    float : left;
+    height: 49px;
+    margin: 0 2px;
+    text-indent: -5000px;
+    width: 47px;
+}
+.menu-name-menu-menu-commodit-haut ul li.menu-mlid-1278 a{
+   background: url(../images/icons/btContact.png) no-repeat 0 0;
+}
+.menu-name-menu-menu-commodit-haut ul li.menu-mlid-396 a{
+   background: url(../images/icons/btEmploi.png) no-repeat 0 0;
+}
+.menu-name-menu-menu-commodit-haut ul li.menu-mlid-396 a:hover{
+   background: url(../images/icons/btEmploi.png) no-repeat 0 100%;
+}
+.menu-name-menu-menu-commodit-haut ul li.menu-mlid-398 a,
+.menu-name-menu-menu-commodit-haut ul li.menu-mlid-952 a{
+   background: url(../images/icons/btMarchePublic.png) no-repeat 0 0;
+}
+.menu-name-menu-menu-commodit-haut ul li.menu-mlid-398 a:hover{
+   background: url(../images/icons/btMarchePublic.png) no-repeat 0 100%;
+}
+.menu-name-menu-menu-commodit-haut ul li.menu-mlid-879 a{
+   background: url(../images/icons/btNewsletter.png) no-repeat 0 0;
+}
+.menu-name-menu-menu-commodit-haut ul li.menu-mlid-717 a:hover{
+   background: url(../images/icons/btNewsletter.png) no-repeat 0 100%;
+}
+.menu-name-menu-menu-commodit-haut ul li.menu-mlid-719 a{
+   background: url(../images/icons/btPublication.png) no-repeat 0 0;
+}
+.menu-name-menu-menu-commodit-haut ul li.menu-mlid-719 a:hover{
+   background: url(../images/icons/btPublication.png) no-repeat 0 100%;
+}
+.menu-name-menu-menu-commodit-haut ul li.menu-mlid-915 a{
+   background: url(../images/icons/btCarte.png) no-repeat 0 0;
+}
+.menu-name-menu-menu-commodit-haut ul li.menu-mlid-915 a:hover{
+   background: url(../images/icons/btCarte.png) no-repeat 0 100%;
+}
+.over_menu{
+    background: url(../images/bgTopInfobulle.png) no-repeat 0 0;
+    width:93px;
+    height:44px;
+    color : white;
+    font-size : 90%;
+    padding:5px;
+    z-index: 9999999;
+    text-align: center;
+    position:absolute;
+}
+/* Menu haut Actus ************************************************************/
+#block-menu-block-7{
+  /* position : absolute;
+   top: 35px;
+   left : 698px;*/
+   margin: 35px 0 0 0;
+   padding :0;
+   float:left;
+   width: 243px;
+   height:24px;
+   overflow: hidden;
+}
+#block-menu-block-7 h2{
+   position : absolute;
+    left : -6000px;
+}
+#block-menu-block-7 ul{
+   padding: 0;
+   margin:0;
+}
+#block-menu-block-7 ul li{
+   list-style: none;
+   padding: 0;
+   margin:0;
+   float : left;
+}
+#block-menu-block-7 ul li a{
+   color : white;
+   background: #43291B url(../images/icons/bgActuPlus.png) no-repeat 0 0;
+   font-size : 0.6em;
+   width : 111px;
+   padding-left: 10px;
+   height : 24px;
+   display : block;
+   text-decoration: none;
+}
+#block-menu-block-7 ul li a:hover{
+   background: #43291B url(../images/icons/bgActuPlus.png) no-repeat 0 100%;
+}
+#block-menu-block-7 ul li.last a{
+   background: #43291B url(../images/icons/bgAgendaPlus.png) no-repeat 0 0;
+}
+#block-menu-block-7 ul li.last a:hover{
+   background: #43291B url(../images/icons/bgAgendaPlus.png) no-repeat 0 100%;
+}
+/* Menus gauche ***************************************************************/
+.region-sidebar-first ul.menu{
+    margin : 0;
+    padding : 0;
+}
+.region-sidebar-first ul.menu li{
+    list-style: none;
+    margin : 0;
+    padding : 0;
+}
+.region-sidebar-first ul.menu li ul{
+    padding : 0 0 0 20px;
+}
+
+.region-sidebar-first ul.menu li a{
+    font-size: 100%;
+    text-transform: none;
+    text-align: left;
+    line-height: 1em;
+    color: #000;
+    font-weight: bold;
+    font-family: "Viga",sans-serif;
+    text-decoration: none;
+    background : url(../images/icons/bgMenuleft.png) no-repeat 0 5px;
+    padding : 8px 0 8px 22px;
+    display: block;
+    margin :10px 0 5px 0;
+   
+}
+.region-sidebar-first ul.menu li ul li a{
+    padding : 5px 0 6px 20px;
+    background-image :none;
+    font-weight: normal;
+    border-left: 3px solid #DD9D17;
+    margin :0;
+}
+
+.region-sidebar-first ul.menu li a.active{
+    background : #DD9D17 url(../images/icons/bgLienMegaMenuWhite.png) no-repeat 3px 5px;
+    border-radius : 8px 8px 8px 8px;
+}
+.section-developpement-economique .region-sidebar-first ul.menu li a.active,
+.section-developpement-economique .region-sidebar-first ul.menu li a:hover{
+    background : #4E9CD0 url(../images/icons/bgLienMegaMenuWhite.png) no-repeat 3px 5px;
+}
+
+body.section-communaute-de-communes .region-sidebar-first ul.menu li ul li a{
+    border-left: 3px solid #DD9D17;
+    background : url(../images/icons/bgMenuOrangeClair.png) no-repeat 3px 5px;
+}
+body.section-communaute-de-communes .region-sidebar-first ul.menu li a:hover,
+body.section-communaute-de-communes .region-sidebar-first ul.menu li a.active{
+    background : #DD9D17 url(../images/icons/bgLienMegaMenuWhite.png) no-repeat 3px 5px;
+}
+body.section-tourisme-et-loisirs .region-sidebar-first ul.menu li ul li a{
+    border-left: 3px solid #D40136;
+    background : url(../images/icons/bgMenuRouge.png) no-repeat 3px 5px;
+}
+body.section-tourisme-et-loisirs .region-sidebar-first ul.menu li a:hover,
+body.section-tourisme-et-loisirs .region-sidebar-first ul.menu li a.active,
+body.section-agenda .region-sidebar-first ul.menu li a.active{
+    background : #D40136 url(../images/icons/bgLienMegaMenuWhite.png) no-repeat 3px 5px;
+    color : white;
+}
+body.section-petite-enfance .region-sidebar-first ul.menu li ul li a{
+    border-left: 3px solid #EE8303;
+    background : url(../images/icons/bgMenuOrangeFonce.png) no-repeat 3px 5px;
+}
+body.section-petite-enfance .region-sidebar-first ul.menu li a:hover,
+body.section-petite-enfance .region-sidebar-first ul.menu li a.active{
+    background : #EE8303 url(../images/icons/bgLienMegaMenuWhite.png) no-repeat 3px 5px;
+}
+body.section-environnement .region-sidebar-first ul.menu li ul li a{
+    border-left: 3px solid #99BF10;
+    background : url(../images/icons/bgMenuVertClair.png) no-repeat 3px 5px;
+}
+body.section-environnement .region-sidebar-first ul.menu li a:hover,
+body.section-environnement .region-sidebar-first ul.menu li a.active{
+    background : #99BF10 url(../images/icons/bgLienMegaMenuWhite.png) no-repeat 3px 5px;
+}
+body.section-jeunesse-emploi .region-sidebar-first ul.menu li ul li a{
+    border-left: 3px solid #629A00;
+    background : url(../images/icons/bgMenuVertFonce.png) no-repeat 3px 5px;
+}
+body.section-jeunesse-emploi .region-sidebar-first ul.menu li a:hover,
+body.section-jeunesse-emploi .region-sidebar-first ul.menu li a.active{
+    background : #629A00 url(../images/icons/bgLienMegaMenuWhite.png) no-repeat 3px 5px;
+}
+body.section-developpement-economique .region-sidebar-first ul.menu li ul li a{
+    border-left: 3px solid #4E9CD0;
+    background : url(../images/icons/bgMenuBleu.png) no-repeat 3px 5px;
+}
+body.section-developpement-economique .region-sidebar-first ul.menu li a:hover,
+body.section-developpement-economique .region-sidebar-first ul.menu li a.active{
+     background : #4E9CD0 url(../images/icons/bgLienMegaMenuWhite.png) no-repeat 3px 5px;
+}
+
+
+/******************************************************************************/
+.region-sidebar-first ul.menu li ul li a.active{
+    font-weight: normal;
+    color : white;
+    background-color: #DD9D17;
+    border-left: 3px solid #DD9D17;
+}
+
+body.section-tourisme-et-loisirs ul.menu li ul li a.active,
+body.section-tourisme-et-loisirs ul.menu li ul li a:hover{
+   background-color: #D40136;
+}
+
+/* Menus bas gauche ***********************************************************/
+#block-menu-menu-menus-bas-gauche h2{
+   position : absolute;
+   left : -6000px;
+}
+/* search *********************************************************************/
+#block-search-form{
+    /*position : absolute;
+    top: 35px;
+    left : 236px;*/
+    float:left;
+    margin:35px 5px 0 236px;
+    width: 175px;
+    border-right: 1px dotted white;
+    background: url(../images/icons/bgSearch.gif) no-repeat 0 0;
+    height: 24px;
+}
+#search-block-form #edit-submit{
+    width: 26px;
+    text-indent: -6000px;
+    position: relative;
+    left:-4px;
+    border:0;
+    background: none;
+}
+#search-block-form input{
+    border:0;
+    margin:0;
+    padding : 0;
+    height: 18px;
+    background: none;
+}
+
+/* Menu principal *************************************************************/
+#navigation ul.links li{
+    padding : 0;
+    margin:0;
+}
+#navigation ul.links li a{
+    display : block;
+    color : #685147;
+    height : 50px;
+    padding : 12px 0 0 0;
+    font-family: "Viga",sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+#navigation ul.links li.menu-410 a{
+    width:127px;
+    margin : 0 2px 0 16px;
+}
+#navigation ul.links li.menu-410 a:hover{
+    color : white;
+    background-color: #D40136;
+}
+#navigation ul.links li.menu-411 a{
+    width:94px;
+    margin : 0 10px 0 0;
+}
+#navigation ul.links li.menu-412 a{
+    width:110px;
+    margin :  0 15px 0 0;
+}
+#navigation ul.links li.menu-413 a{
+    width:140px;
+    margin :  0 10px 0 0;
+}
+#navigation ul.links li.menu-414 a{
+    width:156px;
+    margin :  0 5px 0 0;
+}
+#navigation ul.links li.menu-385 a{
+    width:216px;
+    margin : 0 1px;
+}
+/* Mega Menu ******************************************************************/
+body.front #block-om-maximenu-om-maximenu-1{
+    margin:-6px 0 0 -1px;
+}
+#block-om-maximenu-om-maximenu-1{
+     margin:0 0 0 1px;
+}
+#block-om-maximenu-om-maximenu-1 h2.block-title{
+   position: absolute;
+   left:-4000px;
+}
+#block-om-maximenu-om-maximenu-1 .om-maximenu-content {
+    height:300px;
+    border:5px solid red;
+    width:875px;
+    border-radius: 8px 8px 8px 8px;
+    background-color : #F5F5F5;
+    /**/
+  }
+  .om-maximenu-no-style .om-maximenu-middle-right {
+    padding: 0 0 0 10px;
+}
+.om-maximenu-no-style .om-maximenu-middle {
+    background : #F5F5F5 url(../images/fond_big_menu.gif) no-repeat 52% 0;
+}
+#block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-2 .om-maximenu-content{border-color: #DD9D17; overflow:hidden;}
+#block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-4 .om-maximenu-content{border-color: #D40136; overflow:hidden;}
+#block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-3 .om-maximenu-content{border-color: #EE8303; overflow:hidden;}
+#block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-5 .om-maximenu-content{border-color: #99BF10; overflow:hidden;}
+#block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-6 .om-maximenu-content{border-color: #5F9C03; overflow:hidden;}
+#block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-1 .om-maximenu-content{border-color: #4F9CCA; overflow:hidden;}
+/* Première colonne du megamenu ************************************************/
+#block-om-maximenu-om-maximenu-1 .om-maximenu-content .om-maximenu-middle-right .block-views-id-textes_mega_menus-block,
+.block-views-id-textes_mega_menus-block_1, .block-views-id-textes_mega_menus-block_2,
+.block-views-id-textes_mega_menus-block_3, .block-views-id-textes_mega_menus-block_4,
+.block-views-id-textes_mega_menus-block_5, .block-views-id-textes_mega_menus-block_6{
+    width:315px;
+    width:315px;
+    padding : 0;
+    margin : 20px 0 0 0;
+}
+
+#om-menu-menu-principal li.om-leaf ul.menu{
+    padding : 0;
+    margin : 0;
+}
+#om-menu-menu-principal li.om-leaf ul.menu ul.menu li{
+    padding : 0;
+    margin : 0 0 0 20px;
+    font-size : 0.9em;
+}
+#om-menu-menu-principal .views-field-title{
+    margin: 0;
+    padding : 0;
+    font-weight: 700;
+    font-style: normal;
+    clear: both;
+    font-family: "Viga","Arial", sans-serif;
+    font-size : 1.3em;
+}
+#om-menu-menu-principal div.field-content{
+    margin: 0;
+    padding-bottom :0;
+}
+#om-menu-menu-principal p{
+    margin: 1em 0 0 0;
+    font-size:0.8em;
+    padding-bottom :0;
+}
+
+/* deuxième colonne du megamenu ************************************************/
+#block-om-maximenu-om-maximenu-1 .om-maximenu-content .om-maximenu-middle-right .block-menu_block{
+    width:250px;
+    float:left;
+    margin : 15px 20px 0 0;
+  }
+  #om-menu-menu-principal li.om-leaf li.leaf{
+    line-height: 14px;
+    list-style: none;
+    margin : 0;
+    padding : 0;
+    text-align:left;
+}
+#om-menu-menu-principal li.om-leaf ul.menu li.leaf a,
+#om-menu-menu-principal li.om-leaf ul.menu li a{
+    line-height: 14px;
+    text-align:left;
+    padding : 10px 0 10px 38px ;
+    margin : 0;
+    height : auto;
+    width : 210px;
+    color : black;
+    background : url(../images/icons/bgLienMegaMenu.png) no-repeat 17px 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+#om-menu-menu-principal li.om-leaf ul.menu ul.menu li a{
+    line-height: 12px;
+    padding : 6px 0 6px 38px ;
+     background : url(../images/icons/bgLienMegaMenu.png) no-repeat 17px 6px;
+}
+#om-menu-menu-principal li.om-leaf li.leaf a:hover{
+    color : white;
+    background : url(../images/icons/bgLienMegaMenuWhite.png) no-repeat 17px 10px;
+}
+/* Troisième colonne du megamenu ************************************************/
+.views-field-field-image-mega-menu{
+    float : left;
+    margin-top : 29px;
+}
+.views-field-field-image-mega-menu img{
+     border-radius: 8px 8px 8px 8px;
+}
+ 
+/*#block-om-maximenu-om-maximenu-1 .om-maximenu-content .om-maximenu-middle-right .block-views{
+    width:250px;
+    float:left;
+  }*/
+
+ #om-menu-menu-principal li.om-leaf a{
+    display : block;
+    color : #685147;
+    height : 44px;
+    padding : 18px 0 0 0;
+    font-family: "Viga",sans-serif;
+    text-align: center;
+    text-decoration: none;
+    line-height: 18px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+ #om-menu-menu-principal li.om-leaf{
+    font-size: 0.9em;
+  }
+  #om-menu-menu-principal li.om-leaf a:hover{
+    color :white;
+  }
+#om-leaf-om-u1-654698953-2 a{
+    width:127px;
+    margin : 0 2px 0 16px;
+}
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-2 a:hover,
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-2 a.active {
+    background-color: #DD9D17;
+    color : white;
+}
+#om-leaf-om-u1-654698953-4 a{
+    width:95px;
+    margin : 0 2px 0 0;
+}
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-4 a:hover,
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-4 a.active{
+    background-color: #D40136;
+    color : white;
+}
+#om-leaf-om-u1-654698953-3 a{
+    width:135px;
+    margin :  0 2px 0 0;
+}
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-3 a:hover,
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-3 a.active{
+    background-color: #EE8303;
+    color : white;
+}
+#om-leaf-om-u1-654698953-5 a{
+    width:143px;
+    margin :  0 2px 0 0;
+}
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-5 a:hover,
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-5 a.active{
+    background-color: #99BF10;
+    color : white;
+}
+#om-leaf-om-u1-654698953-6 a{
+    width:159px;
+    margin :  0 1px 0 0;
+}
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-6 a:hover,
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-6 a.active{
+    background-color: #5F9C03;
+    color : white;
+}
+#om-leaf-om-u1-654698953-1 a{
+    width:217px;
+    margin : 0 1px;
+}
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-1 a:hover,
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-1 a.active{
+    background-color: #4F9CCA;
+    color : white;
+}
+ul li.expanded {
+    list-style:none;
+}
+/* added **********************************************************************/
+.om-maximenu ul.om-menu li.om-leaf {
+position:static !important;
+}
+/* This sets the width of the dropdown to span the full 940px of the menu region defined by Omega theme.*/
+
+.om-maximenu-no-style .om-maximenu-content {
+left:18px;
+top : 68px;
+bottom:0;
+}
+/* This should fix your z-index issues in IE 7. It just forces anything in the header section to be on top of anything in the content section. These are Omega theme divs but the same principal should be applicable to other themes.
+*/
+#section-header {
+position:relative;
+z-index:2
+}
+#section-content {
+position:relative;
+z-index:1;
+}
+/* Blocks placed specified for each OM Maximenu link will display on top of eachother unless you float them. You can also set fixed or percentage widths, padding, borders, etc... to achieve something similar to CNN Money.
+*/
+.om-maximenu .om-maximenu-content .block {
+float:left;
+}
+/* To make the dropdown stand out against a white background, i added these styles that appear to safely across browsers (IE specifically).*/
+
+#zone-menu .om-maximenu-middle-right {
+padding:10px 0;
+margin:0 !important;
+background:#fafafa;
+border-width:0 5px 5px 5px;
+border-style:solid;
+border-color:#a9a9a9;
+width:auto;
+}
+.om-maximenu .om-maximenu-open {
+display: none;
+}
+
+/* carte flash ****************************************************************/
+#block-block-1 {
+    float: left;
+    width: 312px;
+}
+#block-block-1 object div p{
+    position : absolute;
+    top : -8000px;
+}
+/* Actualités *****************************************************************/
+#block-views-actualites-accueil-block{
+    float: left;
+    width: 312px;
+    height : 292px;
+    overflow: hidden;
+    background : url(../images/bgActuAccueil.png) no-repeat 0 30px;
+
+}
+#main div#content a#all-actu-home{
+    display:block;
+    position: absolute;
+    top:309px;
+    left : 511px;
+    width:119px;
+    height : 24px;
+    background: url(../images/icons/bgActuPlus.png) no-repeat 0 0;
+    font-size: 0.6em;
+    color:white;
+    text-decoration: none;
+    padding:0 0 0 9px;
+}
+#main div#content a#all-agenda-home{
+    display:block;
+    width:119px;
+    height : 24px;
+    background: url(../images/icons/bgAgendaPlus.png) no-repeat 0 0;
+    font-size: 0.6em;
+    color:white;
+    text-decoration: none;
+    padding:0 0 0 9px;
+    margin:8px 0 0 162px;
+}
+#main div#content a#all-actu-home:hover{
+    background: url(../images/icons/bgActuPlus.png) no-repeat 0 100%;
+}
+#main div#content a#all-agenda-home:hover{
+    background: url(../images/icons/bgAgendaPlus.png) no-repeat 0 100%;
+}
+body.page-actualites #main div#content a#all-actu-home{
+    display: none;
+}
+
+#block-views-actualites-accueil-block h2{
+    background : url(../images/actualite_bg_title_home.png) no-repeat 0 0;
+    text-indent: -5000px;
+    margin: 0;
+    padding: 8px 0 0 0;
+    height: 30px;
+    width: 92px;
+}
+#block-views-actualites-accueil-block ul{
+    padding: 0;
+    margin :0;
+    position:relative;
+}
+#block-views-actualites-accueil-block .views-field-title{
+    padding-left: 9px;
+}
+#block-views-actualites-accueil-block ul li{
+    list-style: none;
+    float: left;
+}
+#block-views-actualites-accueil-block ul li img{
+    margin-left : 9px;
+}
+#block-views-actualites-accueil-block ul li a{
+    color :#3C82B1;
+}
+#controleurs{
+    width : 150px;
+    position : absolute;
+    top:47px;
+    left:470px;
+    width:200px;
+    overflow: hidden;
+}
+.controleur{
+    width:17px;
+    height: 33px;
+    float : left;
+    background: url(../images/icons/bgTabsActu.png) no-repeat 0 0;
+    color : grey;
+    padding-left:6px;
+    margin:0 5px 0 1px;
+}
+.controleur:hover,.selected_controleur{
+    background: url(../images/icons/bgTabsActu.png) no-repeat 0 100%;
+    color : white;
+    cursor: pointer;
+}
+.views-field-field-summary-news{
+ 
+
+}
+.views-field-field-summary-news a{
+    display:block;
+    width:280px;
+    height: 135px;
+    color :#3C82B1;
+    font-size:0.8em;
+}
+
+/* page actu ******************************************************************/
+.page-actu-all ul{
+    background:#FFF;
+    border-radius : 8px 8px 8px 8px;
+    padding:20px;
+    margin:0 0 30px 0;
+}
+.page-actu-all #all-actu-home{
+    display:none;
+}
+.page-actu-all ul li{
+    list-style: none;
+    clear : both;
+}
+.page-actu-all ul li .views-field-field-image-news{
+    float:left;
+    margin-right : 20px;
+}
+.page-actu-all ul li .views-field-field-summary-news{
+    float : left;
+    width : 600px;
+    margin : 0;
+}
+.page-actu-all ul li .views-field-field-summary-news a{
+    width:600px;
+}
+.page-actu-all ul li h3.title-actu-in-page{
+    margin-bottom : 0px;
+}
+.page-actu-all ul li h3.title-actu-in-page a{
+    background: url(../images/bgH2InterBleu.gif) no-repeat 0 8px;
+    font-size: 1.2em;
+    color: #000;
+    font-family: "Viga", verdana;
+    margin : 0px;
+    text-decoration :none;
+    padding:0 0 0 20px;
+}
+
+/* Agenda accueil *************************************************************/
+#block-views-agenda-block{
+    width:282px;
+    margin: 0 0 0 30px;
+    float :left;
+}
+#block-views-agenda-block h2{
+    text-indent: -5000px;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 92px;
+    background: url(../images/agenda_accueil.png) no-repeat 0 5px;
+}
+#block-views-agenda-block ul{
+    margin: 0;
+    padding: 0;
+}
+#block-views-agenda-block ul li{
+    margin: 0 0 5px 0;
+    padding: 2px 9px;
+    list-style: none;
+    background-color: #F5F5F5;
+    border:3px solid #F5F5F5;
+    border-radius : 8px 8px 8px 8px;
+    position : relative;
+    height: 42px;
+    font-family: arial, sans-serif
+}
+#block-views-agenda-block ul li .views-field-field-agenda-period,
+#block-views-agenda-block ul li .views-field-field-agenda-period-1{
+    font-size : 0.7em;
+    display : inline;
+    position : absolute;
+    top:20px;
+}
+#block-views-agenda-block ul li .views-field-field-agenda-period-1{
+    left :135px;
+}
+#block-views-agenda-block ul li .views-field-field-agenda-period div,
+#block-views-agenda-block ul li .views-field-field-agenda-period-1 div{
+    display : inline;
+}
+#block-views-agenda-block ul li:hover{
+    border:3px solid #E4202E;
+    border-radius : 8px 8px 8px 8px;
+}
+#block-views-agenda-block ul li a {
+    color: #D30D40;
+    float: none;
+    font-size: 0.7em;
+    font-weight: bold;
+    display:block;
+    height :40px;
+    width:262px;
+    z-index : 10;
+    position : absolute;
+    font-family: verdana, arial,sans-serif;
+    text-decoration : none;
+}
+
+div.agenda_commune_home{
+  font-size: 0.7em;
+   position: absolute;
+   top: 20px;
+   left : 125px;
+   width: 140px;
+   color : #000000;
+   text-align : right;
+}
+/* page agenda ****************************************************************/
+.views-field-field-agenda-period,
+.views-field-field-agenda-period div.field-content,
+.views-field-field-agenda-period-1,
+.views-field-field-agenda-period-1 div.field-content {
+    display : inline;
+}
+form#views-exposed-form-carte-etablissements-page{
+    padding-top : 10px;
+    background : url(../images/icons/search_01.png) no-repeat 0 20px;
+}
+form#views-exposed-form-carte-etablissements-page .views-exposed-form{
+    padding : 28px 0 0 227px;
+}
+form#views-exposed-form-agenda-page-1 .form-item-field-agenda-thematique-tid{
+    margin-top : 0px;
+}
+form#views-exposed-form-agenda-page-1 div{
+   /*float : left;*/
+}
+#edit-submit-agenda{
+   /* position : absolute;
+    top : 23px;
+    left :417px;*/
+}
+.page-agenda .view-id-agenda ul,
+.section-carte-interactive div.gmap-map{
+    padding : 10px 0 0 10px;
+    margin : 10px 0 0 0;
+}
+.section-carte-interactive div.gmap-map{
+    padding : 20px 0 0 0;
+}
+.page-agenda .view-id-agenda li.views-row{
+    list-style: none;
+    border-left : 3px solid #D80038;
+    margin : 20px 0 0 0;
+    padding : 5px 32px;
+    clear : both;
+}
+.page-agenda .description{
+    display : none;
+}
+#edit-field-agenda-thematique-tid,
+#edit-field-agenda-period-value2-wrapper{
+    width : 192px;
+}
+.views-widget-filter-field_agenda_period_value label{
+    float : left;
+    width : 75px;
+}
+.views-widget-filter-field_agenda_period_value2 label{
+    float : left;
+    width : 75px;
+}
+#edit-field-agenda-period-value-value{
+    width : 100px;
+}
+#edit-field-agenda-period-value2-wrapper{
+    width : 205px;
+    clear : both;
+}
+#edit-field-agenda-period-value-value .date-padding,
+#form-item-field-agenda-period-value2-value .date-padding{
+    width : 100px;
+}
+#edit-field-agenda-period-value-value-datepicker-popup-1,
+#edit-field-agenda-period-value2-value-datepicker-popup-1{
+    width : 111px;
+}
+form#views-exposed-form-agenda-page-1 div {
+    float: left;
+}
+form#views-exposed-form-agenda-page-1 div .views-submit-button{
+    padding-top : 0;
+}
+form#views-exposed-form-agenda-page-1 div .views-submit-button #edit-submit-agenda{
+    background:  url(../images/icons/bg_button_search.png) no-repeat 0 0;
+    color : white;
+    border : 0;
+    width :216px;
+    height:32px;
+    text-align: center;
+}
+#block-views-exp-agenda-page-1 h2.block-title{
+    background: url(../images/icons/search_01.png) no-repeat 0 0;
+    width: 216px;
+    height : 72px;
+    text-indent: -2000px;
+}
+#views-exposed-form-agenda-page-1 div.views-widget-filter-field_agenda_thematique_tid label {
+    border-left: 1px solid #8E7965;
+    color: #333333;
+    font-size: 0.8em;
+    padding-left: 5px;
+}
+
+/* Titres des pages  **********************************************************/
+h2#page-title{
+    color: #000;
+    line-height: 12px;
+    border-bottom : 3px solid #4E9CD0;
+    padding-bottom: 20px;
+    font-size: 1.75em;
+    padding-top: 5px;
+    font-family: viga, arial;
+}
+.section-jeunesse-emploi h2#page-title{
+    border-bottom : 3px solid #629A00;
+}
+body.section-communaute-de-communes  h2#page-title,
+body.section-inscription-newsletter h2#page-title{
+    border-bottom : 3px solid #DD9D17;
+}
+body.page-agenda  h2#page-title,
+body.node-type-agenda  h2#page-title,
+body.page-newsletters h2#page-title{
+    border-bottom : 3px solid #D80038;
+    font-family: "Viga",arial;
+}
+body.page-publications h2#page-title{
+     border-bottom : 3px solid #D80038;
+}
+body.section-tourisme-et-loisirs h2#page-title{
+     border-bottom : 3px solid #D40136;
+}
+body.section-petite-enfance h2#page-title{
+     border-bottom : 3px solid #EE8303;
+}
+body.section-environnement h2#page-title{
+     border-bottom : 3px solid #99BF10;
+}
+body.section-marches-publics h2#page-title{
+    border-bottom : 3px solid #629A00;
+}
+
+/* Fond des contenus centraux *************************************************/
+
+.node-page, .node-commune,.node-liste-elus, .node-fiche-elu,
+.node-actualites,.section-agenda .view-id-agenda,.node-agenda,
+.node-webform ,body.section-offres-emploi #content, .view-id-publications,
+.node-simplenews,.block-mailchimp-lists,
+.view-id-carte_etablissements, body.page-node-mailchimp-campaigns #content,
+.page-user #content, body.page-node-176 #content, .node-liste-marches-publics,
+.section-tourisme-et-loisirs .view-etablissements-sitra .view-content,
+#block-views-offre-emplois-block-statutaire, #block-views-offre-emplois-block-2,
+body.node-type-etablissements div.node-etablissements, #site-map,.webform-confirmation, 
+.view-informations-internes{
+    background-color: #FFF;
+    border-radius : 8px 8px 8px 8px;
+    padding : 24px 12px 120px 12px;
+}
+body.page-node-mailchimp-campaigns #content ul,
+body.page-node-mailchimp-campaigns #content div,
+body.page-node-mailchimp-campaigns #content table{
+    background-color: white;
+}
+/* Pages élus *****************************************************************/
+li.liste-elus{
+    list-style: none;
+    margin:0;
+    padding:0;
+    float : left;
+}
+li.liste-elus span.field-content a{
+   width : 100px;
+   display: block;
+   margin:0 30px 30px 0;
+   text-align: center;
+   color : #981D22;
+   font-size : 0.9em;
+}
+li.liste-elus span.field-content a:hover{
+   color : #000;
+}
+div.view-elus{
+    padding-top:0;
+    border:1px solid white;
+}
+.view-id-elus{
+    background-color: #FFF;
+    padding: 0;
+    margin: 0;
+}
+.node-liste-elus p{
+    margin:0;
+}
+.node-liste-elus div.item-list ul{
+    padding:0;
+    margin:0;
+}
+.table_fiche_elu td{
+    vertical-align: top;
+}
+.table_fiche_elu td.td_fiche_elu .field-label{
+    line-height: 1.2;
+    font-weight: 700;
+    font-style: normal;
+    clear: both;
+    font-family: "Viga", arial;
+    font-size: 1.6em;
+    color : #DD9D17;
+}
+.table_fiche_elu td.td_fiche_elu div.field-name-field-elu-qualite div.field-label,
+.table_fiche_elu td.td_fiche_elu div.field-name-field-elu-representation div.field-label{
+    float: none;
+}
+
+body.section-communaute-de-communes td .field-name-field-elu-commune div.field-items{
+   font-size: 1.2em;
+   margin-top: 3px;
+}
+
+.table_fiche_elu td.td_fiche_elu .field-items{
+    margin-top: 6px;
+}
+.table_fiche_elu td.td_fiche_elu{
+    width:84%;
+    padding-left:30px;
+}
+.table_fiche_elu td.td_fiche_elu p{
+   margin:0;
+   padding:0;
+}
+.separator-label-elu{
+    margin-top: 20px;
+}
+td.td_field_elu_photo{
+    width:16%;
+}
+.view-id-offre_emplois ul li{
+    list-style: none;
+}
+/* Offres d'emplois ***********************************************************/
+div.view-offre-emplois div.field-content{
+    display:inline;
+}
+div.pratique_emploi{
+    width:300px;
+    float:right;
+    padding: 5px;
+    border : 1px solid #4E9CD0;
+    border-radius : 8px 8px 8px 8px ;
+    margin :-40px 30px 10px 20px;
+}
+div.pratique_emploi h5{
+   margin:0.5em;
+}
+div.pratique_emploi a{
+   display: block;
+   padding : 5px 5px 5px 30px;
+   background: url(../images/menu-collapsed.png) no-repeat 10px 15px;
+   font-size: 0.9em;
+}
+.title_job_list{
+    clear:both;
+    margin-top: 20px;
+    padding-top : 20px;
+    border-top : 1px dotted #4E9CD0;
+}
+/*formulaire offres d'emploi **************************************************/
+.webform-client-form label{
+    width: 250px;
+    float:left;
+    clear:left;
+    text-align: right;
+    clear:both;
+    padding-right: 20px;
+}
+.webform-client-form .webform-component-radios label{
+    float: none;
+}
+.webform-client-form .webform-component-textarea label{
+    width: auto;
+}
+.webform-client-form input{
+    width: 330px;
+    clear : right;
+}
+.webform-client-form input.webform-calendar{
+    width: auto;
+}
+.webform-client-form .form-radios{
+    width: 400px;
+    float: right;
+    position: relative;
+    top: -25px;
+}
+/*forumaire inscritpion crèche pose un pb de décalage d'un input ???*/
+.webform-client-form div#edit-submitted-vous-concernant-monsieur-etes-vous-en-activite,
+.webform-client-form div#edit-submitted-vous-concernant-madame-etes-vous-en-activite{
+    position: relative;
+    top: -25px;
+    left :  40px;
+}
+body.page-node-42 .webform-client-form .form-radios{ /*taille plus grande pour une page sans menus gauche */
+    width: 625px;
+}
+.webform-client-form input.form-radio, .webform-client-form input.form-submit,
+.webform-client-form input.form-file{
+    width: auto;
+}
+.webform-client-form .webform-component-textarea label{
+    float: none;
+    text-align: left;
+}
+.webform-client-form label.option{
+    width:auto;
+    clear:none;
+    margin : 0 10px 0 3px;
+}
+.webform-client-form div.form-type-radio{
+    float:left;
+    /*margin:5px 0 20px 0;*/
+    white-space: nowrap;
+}
+.webform-client-form input.form-radio{
+    float:left;
+    margin:5px 0 20px 0;
+}
+.webform-client-form .webform-component-managed_file{
+    clear:both;
+}
+.webform-client-form textarea{
+    width: 680px;
+}
+#webform-component-votre-candidature--si-oui-precisez-lequel{
+    clear:both;
+    margin-top: 20px;
+}
+.h3_depot_job{
+    margin-top : 10px;
+    padding-top : 20px;
+    border-top : 3px solid #4E9CD0;
+}
+
+/* Publications #D80038 *******************************************************/
+#block-views-exp-publications-page h2.block-title{
+    background: url(../images/icons/search_01.png) no-repeat 0 0;
+    width: 216px;
+    height : 72px;
+    text-indent: -2000px;
+}
+#views-exposed-form-publications-page select{
+    font-size: 80%;
+    height: 20px;
+}
+#views-exposed-form-publications-page .views-widget-sort-by,
+#views-exposed-form-publications-page .views-widget-sort-order{
+    display: none;
+}
+#views-exposed-form-publications-page label{
+     font-size: 0.8em;
+     color: #333333;
+     border-left : 1px solid #8E7965;
+     padding-left : 5px;
+}
+input#edit-submit-publications{
+    background:  url(../images/icons/bg_button_search.png) no-repeat 0 0;
+    color : white;
+    border : 0;
+    width :216px;
+    height:32px;
+    text-align: center;
+}
+.view-id-publications ul{
+    margin:0;
+    padding:0;
+}
+.view-id-publications ul li{
+    list-style: none;
+    margin :0 0 20px 0;
+    padding : 0 10px 0 0;
+    float : left;
+    width : 326px;
+    height : 280px;
+    border-bottom : 1px dotted grey;
+    overflow: hidden;
+}
+.img_publi_list{
+    width : 150px;
+    height : 200px;
+    float : left;
+    overflow: hidden;
+    margin : 0 10px 0 0;
+    border: 1px solid #DD9D17;
+    border-radius:3px 3px 3px 3px;
+}
+.views-field-field-publi-thematique{
+    font-size : 0.6em;
+}
+#main h3.title_publi{
+    margin : 0 0 3px 0;
+}
+#main div.view-id-publications p{
+    margin : 5px 0;
+    font-size : 0.6em;
+}
+a.link_publi_calameo, a.link_publi_file{
+    display : block;
+    font-size : 0.75em;
+    background: url(../images/icons/chevron.png) no-repeat 0 50%;
+    padding-left : 15px;
+    clear:both;
+}
+a.link-top{
+    position : relative;
+    left: -80px;
+    width:41px;
+    height : 41px;
+    text-indent: -2000px;
+    background: url(../images/icons/bgHautPage.png) no-repeat 0 0;
+    display : block;
+}
+a.link-top:hover{
+    background: url(../images/icons/bgHautPage.png) no-repeat 0 100%;
+}
+/* Résultats des recherches page-search ***************************************/
+.page-search div#page div#main form{
+    background-color: #FFF;
+    border-radius : 8px 8px 0 0;
+    padding : 24px 12px 24px 30px;
+    border-bottom: 1px dotted #4E9CD0;
+}
+.page-search div#main h2{
+    padding : 10px 0 10px 30px;
+}
+.page-search div#main div#content{
+    background: url(../images/fond_blanc_big.gif) no-repeat 10px 40px;
+    padding-bottom : 20px;
+}
+.page-search p.search-info{
+    display : none;
+}
+/* Pages etablissements *******************************************************/
+body.node-type-etablissements .field-name-field-etablissement-image,
+body.section-tourisme-et-loisirs .views-field-field-etablissement-image{
+    float: left;
+    width : 300px;
+}
+.field-name-field-etablissement-image img, .views-field-field-etablissement-image img{
+    border-radius : 8px 8px 8px 8px;
+}
+body.node-type-etablissements .field-name-field-etablissement-coordonnees,
+body.section-tourisme-et-loisirs .views-field-field-etablissement-coordonnees{
+    float: left;
+    width : 350px;
+    border-left: 2px solid #D40136;
+    padding-left: 20px;
+}
+body.node-type-etablissements .field-type-text-with-summary,
+body.section-tourisme-et-loisirs .views-field-body{
+    clear: both;
+}
+body.section-tourisme-et-loisirs .views-field-body{
+    margin-bottom : 15px;
+    padding-bottom : 15px;
+}
+.view-etablissements-sitra .views-field-title a{
+    text-decoration : none;
+}
+.view-etablissements-sitra h3{
+     background: url(../images/bg_etbs.gif) no-repeat 0 100%;
+     padding-bottom : 9px;
+}
+/* Etablissements Gmap google *************************************************/
+.gmap-popup p, .gmap-popup address{
+    font-size :0.8em;
+    padding : 0;
+    margin :0;
+}
+.gmap-popup div.views-field-title a{
+    display: block;
+    /*border-bottom: 1px solid #8E7965;
+    text-decoration: none;*/
+    background: url("../images/icons/flecheDSmall.png") no-repeat scroll 0 0 transparent;
+    padding: 0 0 1px 30px;
+    margin-bottom: 20px;
+}
+
+#main div#content .gmap-popup div.views-field-title a:hover{
+    color: black;
+    background: url("../images/icons/flecheDSmall.png") no-repeat scroll 0 100% transparent;
+
+}
+.gmap-popup div.views-field-body div.field-content{
+    font-size :0.8em;
+}
+h3.location-locations-header,
+div.location-locations-wrapper{
+    display : none;
+}
+.ets_coordonnees{
+    float: left;
+    padding : 0 10px 10px 0;
+    margin: 0px 10px 5px 0;
+    border-right : 1px dotted #4E9CD0;
+    border-bottom : 1px dotted #4E9CD0;
+    height: 145px;
+    min-width: 180px;
+}
+div.img_google_map{
+     float: left;
+     width: 100px;
+     margin-right : 20px;
+}
+div.img_google_map a img{
+     float: left;
+     margin-right : 10px;
+}
+.gmap-popup{
+    height:160px !important;
+    width: 500px !important;
+}
+
+.gmap-popup address p, .gmap-popup address p{
+    float: none;
+}
+
+/*Newsletter ******************************************************************/
+.node-simplenews h2 {
+    font-size: 1.5em;
+    line-height: 1em;
+    margin-bottom: 0.4em;
+    margin-top: 0;
+}
+.node-simplenews .field-name-field-simplenews-term{
+    display : none;
+}
+.div_img_nl img{
+    margin-top : 20px !important;
+    border-radius : 8px 8px 8px 8px;
+}
+.block-mailchimp-lists .description{
+    display: none;
+}
+body.section-newsletters div#content{
+    background: url(../images/fond_liste_nl.gif) no-repeat 10px 100%;
+    padding-bottom : 40px;
+}
+body.section-newsletters div#content h3{
+     padding-left : 11px;
+}
+body.section-newsletters h3{
+    border-left: 3px solid #D80038;
+    font-family:Viga,Arial;
+    padding-left : 10px;
+    clear:both;
+    margin-left:10px;
+}
+body.section-newsletters #content img{
+    margin-bottom: 15px;
+}
+/* rss ************************************************************************/
+ul.ul_rss li{
+    list-style: none;
+}
+ul.ul_rss li a, a.link_rss{
+    display: block;
+    background: url(../images/icons/rss-small.png) no-repeat 0 0;
+    height: 29px;
+    padding-left : 40px;
+    margin-bottom : 15px;
+}
+ul.ul_rss li a:hover, a.link_rss:hover{
+    background: url(../images/icons/rss-small.png) no-repeat 0 100%;
+}
+a.rss_top_list{
+    float:right;
+    position: relative;
+    top : -46px;
+}
+div.view-id-agenda a.rss_top_list{
+    top : -70px;
+}
+/* user-login *****************************************************************/
+#block-user-login{
+    background-color: white;
+    margin-top:0;
+    padding : 20px 20px;
+    border-radius : 8px 8px 8px 8px;
+}
+/* marches publics ************************************************************/
+div.views-field-field-marches-date-limite div{
+    display: inline;
+}
+.node-type-liste-marches-publics #main h3{
+    border-bottom : 2px solid #629A00;
+}
+div.view-marches-publics-view h4{
+    border-bottom : 1px dashed #629A00;
+}
+div.view-marches-publics-view h5{
+    margin-bottom : 0;
+    padding-left : 5px;
+    border-left : 4px solid #629A00;
+}
+div.view-marches-publics-view div.view-content{
+   padding-left: 20px;
+}
+
+.menu-mlid-972 ul {
+    display:none;
+}
+/* divers *********************************************************************/
+form.node-form{
+    background-color : white;
+}
+form.node-form body{
+    background-color:white;
+    background-image:none;
+}
+
+#views-exposed-form-informations-internes-page select,
+#views-exposed-form-informations-internes-page input{
+    width: 218px;
+}
+#block-views-exp-informations-internes-page {
+    padding : 80px 0 0 0;
+    background : url(../images/icons/search_01.png) no-repeat 0 10px;
+}
+#block-views-exp-informations-internes-page h2{
+    position : absolute;
+    left: -3000px;
+}
+.view-informations-internes h3{
+     background: url(../images/bg_doc_interne.gif) no-repeat 0 100%;
+     padding-bottom : 9px;
+     margin-top : 20px;
+}
+.views-field-title a{
+    text-decoration : none;
+}
+/* Toggle styles **************************************************************/
+.field-collection-view{
+    border : 1px solid #DD9D17;
+    border-radius : 8px;
+    padding: 20px;
+}
+.toggled_title{
+    padding-left : 30px;
+    cursor: pointer;
+    text-decoration : underline;
+}
+.opened_title{
+    background : url(../images/menu-expanded.png) no-repeat 5px 50%;
+}
+.closed_title{
+    background : url(../images/menu-collapsed.png) no-repeat 5px 50%;
+}
