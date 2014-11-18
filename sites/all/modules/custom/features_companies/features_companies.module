@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Features_companies feature.
+ */
+
+include_once 'features_companies.features.inc';
