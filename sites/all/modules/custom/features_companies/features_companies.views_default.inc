@@ -128,7 +128,7 @@ function features_companies_views_default_views() {
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
-  $handler->display->display_options['path'] = 'entreprises';
+  $handler->display->display_options['path'] = 'developpement_economique/entreprises';
   $translatables['entreprises'] = array(
     t('Master'),
     t('Entreprises - Communauté de Communes de la Région de Condrieu'),
