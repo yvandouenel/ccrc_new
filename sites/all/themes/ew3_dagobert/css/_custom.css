@@ -1812,3 +1812,6 @@ form.node-form body{
 .node-entreprises{
    padding : 24px 12px 0px 12px;
 }
+.field-name-field-company-adresse p{
+  margin:0;
+}
