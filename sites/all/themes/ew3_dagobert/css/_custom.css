@@ -1809,3 +1809,6 @@ form.node-form body{
 .node-type-entreprises .field-name-field-horaires-d-ouverture p{
   margin-top: 0;
 }
+.node-entreprises{
+   padding : 24px 12px 0px 12px;
+}
