@@ -22,14 +22,15 @@ function features_companies_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Entreprises';
+  $handler->display->display_options['title'] = 'Entreprises - Communauté de Communes de la Région de Condrieu';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
-  $handler->display->display_options['exposed_form']['options']['submit_button'] = 'Envoyer';
+  $handler->display->display_options['exposed_form']['options']['submit_button'] = 'Chercher';
   $handler->display->display_options['exposed_form']['options']['reset_button_label'] = 'Réinitialiser';
+  $handler->display->display_options['exposed_form']['options']['autosubmit'] = TRUE;
   $handler->display->display_options['pager']['type'] = 'full';
   $handler->display->display_options['pager']['options']['items_per_page'] = '10';
   $handler->display->display_options['pager']['options']['expose']['items_per_page_label'] = 'Résultats par page';
@@ -47,6 +48,13 @@ function features_companies_views_default_views() {
   $handler->display->display_options['row_options']['delta_fieldset']['delta_fields'] = array();
   $handler->display->display_options['row_options']['grouping_fieldset']['group_field'] = 'node|created';
   $handler->display->display_options['row_options']['default_fieldset']['view_mode'] = 'list';
+  /* No results behavior: Global: Text area */
+  $handler->display->display_options['empty']['area']['id'] = 'area';
+  $handler->display->display_options['empty']['area']['table'] = 'views';
+  $handler->display->display_options['empty']['area']['field'] = 'area';
+  $handler->display->display_options['empty']['area']['empty'] = TRUE;
+  $handler->display->display_options['empty']['area']['content'] = '<p>Désolé, aucune entreprise ne correspond à votre requête. <br/>Veuillez changer les critères de sélection.</p>';
+  $handler->display->display_options['empty']['area']['format'] = 'full_html';
   /* Champ: Contenu: Titre */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
@@ -73,11 +81,34 @@ function features_companies_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'entreprises' => 'entreprises',
   );
+  $handler->display->display_options['filters']['type']['group'] = 1;
+  /* Filter criterion: Contenu: Has taxonomy term */
+  $handler->display->display_options['filters']['tid']['id'] = 'tid';
+  $handler->display->display_options['filters']['tid']['table'] = 'taxonomy_index';
+  $handler->display->display_options['filters']['tid']['field'] = 'tid';
+  $handler->display->display_options['filters']['tid']['group'] = 1;
+  $handler->display->display_options['filters']['tid']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['tid']['expose']['operator_id'] = 'tid_op';
+  $handler->display->display_options['filters']['tid']['expose']['label'] = 'Commune';
+  $handler->display->display_options['filters']['tid']['expose']['operator'] = 'tid_op';
+  $handler->display->display_options['filters']['tid']['expose']['identifier'] = 'tid';
+  $handler->display->display_options['filters']['tid']['expose']['remember_roles'] = array(
+    2 => '2',
+    1 => '1',
+    217365643 => '217365643',
+    97107646 => '97107646',
+    231346920 => '231346920',
+    193262079 => '193262079',
+    30037204 => '30037204',
+  );
+  $handler->display->display_options['filters']['tid']['type'] = 'select';
+  $handler->display->display_options['filters']['tid']['vocabulary'] = 'commune';
   /* Filter criterion: Contenu: Has taxonomy terms (with depth; <em class="placeholder">Simple hierarchical select</em>) */
   $handler->display->display_options['filters']['shs_term_node_tid_depth']['id'] = 'shs_term_node_tid_depth';
   $handler->display->display_options['filters']['shs_term_node_tid_depth']['table'] = 'node';
   $handler->display->display_options['filters']['shs_term_node_tid_depth']['field'] = 'shs_term_node_tid_depth';
   $handler->display->display_options['filters']['shs_term_node_tid_depth']['value'] = 'All';
+  $handler->display->display_options['filters']['shs_term_node_tid_depth']['group'] = 1;
   $handler->display->display_options['filters']['shs_term_node_tid_depth']['exposed'] = TRUE;
   $handler->display->display_options['filters']['shs_term_node_tid_depth']['expose']['operator_id'] = 'shs_term_node_tid_depth_op';
   $handler->display->display_options['filters']['shs_term_node_tid_depth']['expose']['label'] = 'Secteur d\'activité';
@@ -100,9 +131,9 @@ function features_companies_views_default_views() {
   $handler->display->display_options['path'] = 'entreprises';
   $translatables['entreprises'] = array(
     t('Master'),
-    t('Entreprises'),
+    t('Entreprises - Communauté de Communes de la Région de Condrieu'),
     t('more'),
-    t('Envoyer'),
+    t('Chercher'),
     t('Réinitialiser'),
     t('Sort by'),
     t('Asc'),
@@ -114,6 +145,8 @@ function features_companies_views_default_views() {
     t('‹ précédent'),
     t('suivant ›'),
     t('dernier »'),
+    t('<p>Désolé, aucune entreprise ne correspond à votre requête. <br/>Veuillez changer les critères de sélection.</p>'),
+    t('Commune'),
     t('Secteur d\'activité'),
     t('Page'),
   );

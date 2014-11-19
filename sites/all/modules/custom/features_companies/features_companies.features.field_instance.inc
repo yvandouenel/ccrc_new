@@ -22,7 +22,7 @@ function features_companies_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 8,
       ),
       'home' => array(
         'label' => 'above',
@@ -32,12 +32,9 @@ function features_companies_field_default_field_instances() {
       ),
       'list' => array(
         'label' => 'hidden',
-        'module' => 'text',
-        'settings' => array(
-          'trim_length' => 600,
-        ),
-        'type' => 'text_summary_or_trimmed',
-        'weight' => 8,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 10,
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -82,7 +79,7 @@ function features_companies_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 8,
+        'weight' => 6,
       ),
       'home' => array(
         'label' => 'above',
@@ -157,7 +154,7 @@ function features_companies_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_commune',
     'label' => 'Commune',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -184,7 +181,7 @@ function features_companies_field_default_field_instances() {
           'image_style' => 'medium',
         ),
         'type' => 'image',
-        'weight' => 1,
+        'weight' => 7,
       ),
       'home' => array(
         'label' => 'above',
@@ -200,7 +197,7 @@ function features_companies_field_default_field_instances() {
           'image_style' => 'medium',
         ),
         'type' => 'image',
-        'weight' => 2,
+        'weight' => 4,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -248,7 +245,7 @@ function features_companies_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 7,
+        'weight' => 4,
       ),
       'home' => array(
         'label' => 'above',
@@ -260,7 +257,7 @@ function features_companies_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 3,
+        'weight' => 11,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -300,7 +297,7 @@ function features_companies_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 5,
+        'weight' => 2,
       ),
       'home' => array(
         'label' => 'above',
@@ -312,7 +309,7 @@ function features_companies_field_default_field_instances() {
         'label' => 'inline',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 5,
+        'weight' => 12,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -352,7 +349,7 @@ function features_companies_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 6,
+        'weight' => 3,
       ),
       'home' => array(
         'label' => 'above',
@@ -364,7 +361,7 @@ function features_companies_field_default_field_instances() {
         'label' => 'inline',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 7,
+        'weight' => 14,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -400,11 +397,11 @@ function features_companies_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 3,
+        'weight' => 0,
       ),
       'home' => array(
         'label' => 'above',
@@ -413,11 +410,11 @@ function features_companies_field_default_field_instances() {
         'weight' => 0,
       ),
       'list' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 4,
+        'weight' => 1,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -459,7 +456,7 @@ function features_companies_field_default_field_instances() {
           'linked' => FALSE,
         ),
         'type' => 'shs_default',
-        'weight' => 0,
+        'weight' => 5,
       ),
       'home' => array(
         'label' => 'above',
@@ -474,7 +471,7 @@ function features_companies_field_default_field_instances() {
           'linked' => FALSE,
         ),
         'type' => 'shs_default',
-        'weight' => 1,
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -486,7 +483,7 @@ function features_companies_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_secteur_activite',
     'label' => 'Secteur d\'activité',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -514,11 +511,11 @@ function features_companies_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'inline',
+        'label' => 'hidden',
         'module' => 'link',
         'settings' => array(),
         'type' => 'link_default',
-        'weight' => 4,
+        'weight' => 1,
       ),
       'home' => array(
         'label' => 'above',
@@ -530,7 +527,7 @@ function features_companies_field_default_field_instances() {
         'label' => 'inline',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 6,
+        'weight' => 13,
       ),
       'teaser' => array(
         'label' => 'above',
