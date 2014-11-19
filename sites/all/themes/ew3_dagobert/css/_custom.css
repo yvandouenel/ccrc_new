@@ -1815,3 +1815,9 @@ form.node-form body{
 .field-name-field-company-adresse p{
   margin:0;
 }
+#views-exposed-form-entreprises-page{
+  background: url(../images/icons/search_01.png) no-repeat 0 0;
+  padding-left: 226px;
+  height: 72px;
+  margin-bottom : 10px;
+}
