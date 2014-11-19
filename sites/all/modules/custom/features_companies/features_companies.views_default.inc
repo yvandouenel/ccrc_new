@@ -82,6 +82,26 @@ function features_companies_views_default_views() {
     'entreprises' => 'entreprises',
   );
   $handler->display->display_options['filters']['type']['group'] = 1;
+  /* Filter criterion: Contenu: Titre */
+  $handler->display->display_options['filters']['title']['id'] = 'title';
+  $handler->display->display_options['filters']['title']['table'] = 'node';
+  $handler->display->display_options['filters']['title']['field'] = 'title';
+  $handler->display->display_options['filters']['title']['operator'] = 'contains';
+  $handler->display->display_options['filters']['title']['group'] = 1;
+  $handler->display->display_options['filters']['title']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['title']['expose']['operator_id'] = 'title_op';
+  $handler->display->display_options['filters']['title']['expose']['label'] = 'Nom de l\'entreprise';
+  $handler->display->display_options['filters']['title']['expose']['operator'] = 'title_op';
+  $handler->display->display_options['filters']['title']['expose']['identifier'] = 'title';
+  $handler->display->display_options['filters']['title']['expose']['remember_roles'] = array(
+    2 => '2',
+    1 => 0,
+    217365643 => 0,
+    97107646 => 0,
+    231346920 => 0,
+    193262079 => 0,
+    30037204 => 0,
+  );
   /* Filter criterion: Contenu: Has taxonomy term */
   $handler->display->display_options['filters']['tid']['id'] = 'tid';
   $handler->display->display_options['filters']['tid']['table'] = 'taxonomy_index';
@@ -146,6 +166,7 @@ function features_companies_views_default_views() {
     t('suivant ›'),
     t('dernier »'),
     t('<p>Désolé, aucune entreprise ne correspond à votre requête. <br/>Veuillez changer les critères de sélection.</p>'),
+    t('Nom de l\'entreprise'),
     t('Commune'),
     t('Secteur d\'activité'),
     t('Page'),
