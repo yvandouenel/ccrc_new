@@ -1266,7 +1266,7 @@ body.section-marches-publics h2#page-title{
 .section-tourisme-et-loisirs .view-etablissements-sitra .view-content,
 #block-views-offre-emplois-block-statutaire, #block-views-offre-emplois-block-2,
 body.node-type-etablissements div.node-etablissements, #site-map,.webform-confirmation, 
-.view-informations-internes{
+.view-informations-internes,.view-id-entreprises, .node-entreprises{
     background-color: #FFF;
     border-radius : 8px 8px 8px 8px;
     padding : 24px 12px 120px 12px;
@@ -1768,4 +1768,44 @@ form.node-form body{
 }
 .closed_title{
     background : url(../images/menu-collapsed.png) no-repeat 5px 50%;
+}
+/* Entrepr.view-id-entreprises ises ****************************************************************/
+.view-id-entreprises .shs-term-selected.last,
+.node-type-entreprises .shs-term-selected.last{
+  display:none;
+}
+.view-id-entreprises .shs-parent.first:after,
+.node-type-entreprises .shs-parent.first:after{
+  content: "";
+}
+.view-id-entreprises .shs-parent.first, .view-id-entreprises .field-name-node-link,
+.node-type-entreprises .shs-parent.first{
+  float: right;
+  clear: right;
+}
+#main div#content .view-id-entreprises .field-name-node-link a{
+  color: white;
+  background: #4285B2 url(../images/icons/bgCompanyPlus.png) no-repeat 100% 100%;
+  display: block;
+  text-decoration : none;
+  border-radius : 6px;
+  padding: 5px;
+  margin-top: 67px;
+}
+.view-id-entreprises .views-row{
+  border: 2px solid #4F9CCA;
+  border-radius: 6px;
+  padding : 5px;
+  margin-bottom : 15px;
+}
+.field-name-field-cible{
+  font-style: italic;
+  font-size: 0.8em;
+  float: right;
+  clear:right;
+  max-width: 50%;
+  text-align: right;
+}
+.node-type-entreprises .field-name-field-horaires-d-ouverture p{
+  margin-top: 0;
 }
