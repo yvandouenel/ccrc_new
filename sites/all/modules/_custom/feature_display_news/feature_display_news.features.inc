@@ -7,8 +7,7 @@
 /**
  * Implements hook_ctools_plugin_api().
  */
-function feature_display_news_ctools_plugin_api() {
-  list($module, $api) = func_get_args();
+function feature_display_news_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "ds" && $api == "ds") {
     return array("version" => "1");
   }
@@ -17,7 +16,7 @@ function feature_display_news_ctools_plugin_api() {
 /**
  * Implements hook_views_api().
  */
-function feature_display_news_views_api() {
+function feature_display_news_views_api($module = NULL, $api = NULL) {
   return array("api" => "3.0");
 }
 
@@ -30,6 +29,7 @@ function feature_display_news_image_default_styles() {
   // Exported image style: actu_home.
   $styles['actu_home'] = array(
     'name' => 'actu_home',
+    'label' => 'actu_home',
     'effects' => array(
       1 => array(
         'label' => 'Mise à l’échelle et recadrage',
@@ -41,10 +41,10 @@ function feature_display_news_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '289',
-          'height' => '160',
+          'width' => 289,
+          'height' => 160,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );

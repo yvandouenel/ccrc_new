@@ -22,23 +22,19 @@ function feature_display_news_ds_layout_settings_info() {
       'ds_content' => array(
         0 => 'body',
         1 => 'field_image_news',
-        2 => 'field_dates_news',
-        3 => 'field_thematic_news',
-        4 => 'field_summary_news',
       ),
     ),
     'fields' => array(
       'body' => 'ds_content',
       'field_image_news' => 'ds_content',
-      'field_dates_news' => 'ds_content',
-      'field_thematic_news' => 'ds_content',
-      'field_summary_news' => 'ds_content',
     ),
     'classes' => array(),
-    'wrappers' => array(),
+    'wrappers' => array(
+      'ds_content' => 'div',
+    ),
     'layout_wrapper' => 'div',
     'layout_attributes' => '',
-    'layout_attributes_merge' => FALSE,
+    'layout_attributes_merge' => 0,
   );
   $export['node|actualites|default'] = $ds_layout;
 
