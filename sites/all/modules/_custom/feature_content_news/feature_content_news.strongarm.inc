@@ -86,10 +86,37 @@ function feature_content_news_strongarm() {
       'revision' => array(
         'custom_settings' => FALSE,
       ),
+      'list' => array(
+        'custom_settings' => TRUE,
+      ),
+      'home' => array(
+        'custom_settings' => TRUE,
+      ),
+      'diff_standard' => array(
+        'custom_settings' => FALSE,
+      ),
+      'mcc' => array(
+        'custom_settings' => FALSE,
+      ),
+      'email_plain' => array(
+        'custom_settings' => FALSE,
+      ),
+      'email_html' => array(
+        'custom_settings' => FALSE,
+      ),
+      'email_textalt' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
         'title' => array(
+          'weight' => '1',
+        ),
+        'path' => array(
+          'weight' => '9',
+        ),
+        'workbench_access' => array(
           'weight' => '0',
         ),
       ),
@@ -110,7 +137,7 @@ function feature_content_news_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_options_actualites';
   $strongarm->value = array(
-    0 => 'main-menu',
+    0 => 'menu-agenda-actualites',
   );
   $export['menu_options_actualites'] = $strongarm;
 
@@ -118,7 +145,7 @@ function feature_content_news_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_parent_actualites';
-  $strongarm->value = 'main-menu:0';
+  $strongarm->value = 'menu-agenda-actualites:482';
   $export['menu_parent_actualites'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -126,7 +153,8 @@ function feature_content_news_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'node_options_actualites';
   $strongarm->value = array(
-    0 => 'status',
+    0 => 'moderation',
+    1 => 'revision',
   );
   $export['node_options_actualites'] = $strongarm;
 
