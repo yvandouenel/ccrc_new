@@ -694,11 +694,13 @@ body.front #block-om-maximenu-om-maximenu-1{
 #block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-5 .om-maximenu-content{border-color: #99BF10; overflow:hidden;}
 #block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-6 .om-maximenu-content{border-color: #5F9C03; overflow:hidden;}
 #block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-1 .om-maximenu-content{border-color: #4F9CCA; overflow:hidden;}
+#block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-7 .om-maximenu-content{border-color: #F5F5F5; overflow:hidden;}
 /* Première colonne du megamenu ************************************************/
 #block-om-maximenu-om-maximenu-1 .om-maximenu-content .om-maximenu-middle-right .block-views-id-textes_mega_menus-block,
 .block-views-id-textes_mega_menus-block_1, .block-views-id-textes_mega_menus-block_2,
 .block-views-id-textes_mega_menus-block_3, .block-views-id-textes_mega_menus-block_4,
-.block-views-id-textes_mega_menus-block_5, .block-views-id-textes_mega_menus-block_6{
+.block-views-id-textes_mega_menus-block_5, .block-views-id-textes_mega_menus-block_6,
+.block-views-id-textes_mega_menus-block_7{
     width:315px;
     width:315px;
     padding : 0;
@@ -843,6 +845,15 @@ body.front #block-om-maximenu-om-maximenu-1{
 #om-menu-menu-principal li#om-leaf-om-u1-654698953-6 a:hover,
 #om-menu-menu-principal li#om-leaf-om-u1-654698953-6 a.active{
     background-color: #5F9C03;
+    color : white;
+}
+#om-leaf-om-u1-654698953-7 a{
+    width:100px;
+    margin :  0 1px 0 0;
+}
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-7 a:hover,
+#om-menu-menu-principal li#om-leaf-om-u1-654698953-7 a.active{
+    background-color: #97CEFA;
     color : white;
 }
 #om-leaf-om-u1-654698953-1 a{
