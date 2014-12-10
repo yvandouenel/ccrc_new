@@ -170,6 +170,10 @@ body.section-environnement .breadcrumb{
 body.section-marches-publics .breadcrumb{
     background-color: #629A00;
 }
+body.section-cadre-vie .breadcrumb{
+    background-color: #97CEFA;
+}
+
 
 
 .breadcrumb li a{
@@ -573,6 +577,14 @@ body.section-developpement-economique .region-sidebar-first ul.menu li a:hover,
 body.section-developpement-economique .region-sidebar-first ul.menu li a.active{
      background : #4E9CD0 url(../images/icons/bgLienMegaMenuWhite.png) no-repeat 3px 5px;
 }
+body.section-cadre-vie .region-sidebar-first ul.menu li ul li a{
+    border-left: 3px solid #97CEFA;
+    background : url(../images/icons/bgMenuBleu.png) no-repeat 3px 5px;
+}
+body.section-cadre-vie .region-sidebar-first ul.menu li a:hover,
+body.section-cadre-vie .region-sidebar-first ul.menu li a.active{
+     background : #97CEFA url(../images/icons/bgLienMegaMenuWhite.png) no-repeat 3px 5px;
+}
 
 
 /******************************************************************************/
@@ -694,7 +706,7 @@ body.front #block-om-maximenu-om-maximenu-1{
 #block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-5 .om-maximenu-content{border-color: #99BF10; overflow:hidden;}
 #block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-6 .om-maximenu-content{border-color: #5F9C03; overflow:hidden;}
 #block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-1 .om-maximenu-content{border-color: #4F9CCA; overflow:hidden;}
-#block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-7 .om-maximenu-content{border-color: #F5F5F5; overflow:hidden;}
+#block-om-maximenu-om-maximenu-1 li#om-leaf-om-u1-654698953-7 .om-maximenu-content{border: 5px solid #F5F5F5; overflow:hidden;}
 /* Première colonne du megamenu ************************************************/
 #block-om-maximenu-om-maximenu-1 .om-maximenu-content .om-maximenu-middle-right .block-views-id-textes_mega_menus-block,
 .block-views-id-textes_mega_menus-block_1, .block-views-id-textes_mega_menus-block_2,
@@ -1275,6 +1287,9 @@ body.section-environnement h2#page-title{
 }
 body.section-marches-publics h2#page-title{
     border-bottom : 3px solid #629A00;
+}
+body.section-cadre-vie h2#page-title{
+    border-bottom : 3px solid #97CEFA;
 }
 
 /* Fond des contenus centraux *************************************************/
