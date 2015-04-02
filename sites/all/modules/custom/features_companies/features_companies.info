@@ -60,4 +60,5 @@ features[views_view][] = entreprises
 features_exclude[dependencies][ctools] = ctools
 features_exclude[dependencies][options] = options
 features_exclude[dependencies][taxonomy] = taxonomy
+mtime = 1416417537
 project path = sites/all/modules/custom
