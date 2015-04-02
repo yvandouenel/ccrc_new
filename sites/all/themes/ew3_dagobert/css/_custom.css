@@ -1255,7 +1255,7 @@ form#views-exposed-form-agenda-page-1 div .views-submit-button #edit-submit-agen
 /* Titres des pages  **********************************************************/
 h2#page-title{
     color: #000;
-    line-height: 12px;
+    line-height: 1em;
     border-bottom : 3px solid #4E9CD0;
     padding-bottom: 20px;
     font-size: 1.75em;
