@@ -1238,7 +1238,8 @@ form#views-exposed-form-agenda-page-1 div .views-submit-button #edit-submit-agen
     height:32px;
     text-align: center;
 }
-#block-views-exp-agenda-page-1 h2.block-title{
+#block-views-exp-agenda-page-1 h2.block-title,
+#block-views-exp-entreprises-page h2.block-title{
     background: url(../images/icons/search_01.png) no-repeat 0 0;
     width: 216px;
     height : 72px;
@@ -1853,6 +1854,7 @@ form.node-form body{
 .field-name-field-company-adresse p{
   margin:0;
 }
+/*
 #views-exposed-form-entreprises-page{
   background: url(../images/icons/search_01.png) no-repeat -150px 0;
   padding-left: 100px;
@@ -1861,7 +1863,11 @@ form.node-form body{
   border-bottom: 1px solid #8E7965;
   border-radius: 0 6px 0 6px;
   box-shadow: 3px 10px 5px #8E7965;
-}
+}*/
 #views-exposed-form-entreprises-page .form-type-textfield input#edit-title{
   width : 175px;
+}
+#views-exposed-form-entreprises-page select{
+  width:100%;
+  font-size: 0.8em;
 }
