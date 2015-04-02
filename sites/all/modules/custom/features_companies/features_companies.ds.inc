@@ -28,7 +28,7 @@ function features_companies_ds_field_settings_info() {
       ),
     ),
     'node_link' => array(
-      'weight' => '3',
+      'weight' => '5',
       'label' => 'hidden',
       'format' => 'default',
       'formatter_settings' => array(
@@ -71,7 +71,9 @@ function features_companies_ds_layout_settings_info() {
         7 => 'field_companie_logo',
       ),
       'footer' => array(
-        8 => 'body',
+        8 => 'field_facebook',
+        9 => 'field_twitter',
+        10 => 'body',
       ),
     ),
     'fields' => array(
@@ -83,6 +85,8 @@ function features_companies_ds_layout_settings_info() {
       'field_secteur_activite' => 'right',
       'field_cible' => 'right',
       'field_companie_logo' => 'right',
+      'field_facebook' => 'footer',
+      'field_twitter' => 'footer',
       'body' => 'footer',
     ),
     'classes' => array(),
@@ -109,20 +113,18 @@ function features_companies_ds_layout_settings_info() {
     'regions' => array(
       'left' => array(
         0 => 'title',
-        1 => 'field_horaires_d_ouverture',
-      ),
-      'right' => array(
+        1 => 'group_sub_title',
         2 => 'field_secteur_activite',
-        3 => 'node_link',
-        4 => 'field_companie_logo',
+        3 => 'field_company_adresse',
+        4 => 'node_link',
       ),
     ),
     'fields' => array(
       'title' => 'left',
-      'field_horaires_d_ouverture' => 'left',
-      'field_secteur_activite' => 'right',
-      'node_link' => 'right',
-      'field_companie_logo' => 'right',
+      'group_sub_title' => 'left',
+      'field_secteur_activite' => 'left',
+      'field_company_adresse' => 'left',
+      'node_link' => 'left',
     ),
     'classes' => array(),
     'wrappers' => array(
