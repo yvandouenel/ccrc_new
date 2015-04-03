@@ -1823,13 +1823,23 @@ form.node-form body{
   clear: right;
 }
 #main div#content .view-id-entreprises .field-name-node-link a{
-  color: white;
+  /*color: white;
   background: #4285B2 url(../images/icons/bgCompanyPlus.png) no-repeat 100% 100%;
   display: block;
   text-decoration : none;
   border-radius : 6px;
   padding: 5px;
   width: 200px;
+  text-align: center;*/
+  text-decoration : none;
+  
+}
+#main div#content .view-id-entreprises .field-name-node-link a:hover{
+    color:#4E9CD0;
+}
+#main div#content .view-id-entreprises .field-name-node-link a:before{
+  content: '> ';
+  
 }
 .view-id-entreprises .views-row{
   /*border: 2px solid #4F9CCA;
@@ -1840,10 +1850,10 @@ form.node-form body{
 .view-id-entreprises .views-row .field-item h2{
   border-bottom: 1px solid #4E9CD0;
 }
-.view-id-entreprises .views-row .field-item h2 a{
+#main div#content .view-id-entreprises .views-row .field-item h2 a{
   text-decoration: none;
 }
-#main .view-id-entreprises .views-row .field-item h2 a:hover{
+#main div#content .view-id-entreprises .views-row .field-item h2 a:hover{
   color:#4E9CD0;
 }
 .view-id-entreprises .group-sub-title{
@@ -1883,4 +1893,50 @@ form.node-form body{
 #views-exposed-form-entreprises-page select{
   width:100%;
   font-size: 0.8em;
+}
+/* view mode default **********************************************************/
+body.node-type-entreprises .group-left{
+   width: 70%;
+}
+body.node-type-entreprises .group-right{
+   width: 30%;
+}
+body.node-type-entreprises .field-name-field-cible {
+  max-width: 100%;
+}
+body.node-type-entreprises .node-entreprises{
+   padding : 20px 12px 0px 12px;
+}
+body.node-type-entreprises .group-left div.field-label{
+  width: 90px;
+}
+body.node-type-entreprises .group-footer .field-name-field-site-internet,
+body.node-type-entreprises .group-footer .field-name-field-facebook,
+body.node-type-entreprises .group-footer .field-name-field-twitter{ 
+ float: left;
+ margin-right: 20px;
+}
+body.node-type-entreprises .group-footer .field-name-field-site-internet a{
+  background: transparent url(../images/icons/website.jpg) no-repeat 0 50%;
+  padding-left: 30px;
+  height: 25px;
+  display: block;
+}
+body.node-type-entreprises .group-footer .field-name-field-facebook a{
+  background: transparent url(../images/icons/facebook.png) no-repeat 0 50%;
+  padding-left: 30px;
+  height: 25px;
+  display: block;
+}
+body.node-type-entreprises .group-footer .field-name-field-twitter a{
+  background: transparent url(../images/icons/twitter.png) no-repeat 0 50%;
+  padding-left: 30px;
+  height: 25px;
+  display: block;
+}
+body.node-type-entreprises .group-footer #node_entreprises_full_group_social_network:after{
+  content: '';
+  display: block;
+  clear: both;
+  margin-bottom: 10px;
 }
