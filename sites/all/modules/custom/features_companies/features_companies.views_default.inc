@@ -62,9 +62,9 @@ function features_companies_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
-  /* Sort criterion: Content revision: Titre */
+  /* Sort criterion: Contenu: Titre */
   $handler->display->display_options['sorts']['title']['id'] = 'title';
-  $handler->display->display_options['sorts']['title']['table'] = 'node_revision';
+  $handler->display->display_options['sorts']['title']['table'] = 'node';
   $handler->display->display_options['sorts']['title']['field'] = 'title';
   /* Sort criterion: Contenu: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
