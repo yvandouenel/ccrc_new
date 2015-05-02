@@ -60,7 +60,6 @@ function features_companies_field_group_info() {
       1 => 'field_company_tel',
       2 => 'field_email',
       3 => 'field_secteur_activite',
-      4 => 'node_link',
     ),
     'format_type' => 'div',
     'format_settings' => array(

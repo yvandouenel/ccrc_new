@@ -23,18 +23,8 @@ function features_companies_ds_field_settings_info() {
       'format' => 'default',
       'formatter_settings' => array(
         'link' => '1',
-        'wrapper' => 'h2',
+        'wrapper' => 'h3',
         'class' => '',
-      ),
-    ),
-    'node_link' => array(
-      'weight' => '7',
-      'label' => 'hidden',
-      'format' => 'default',
-      'formatter_settings' => array(
-        'link text' => 'Plus d\'informations',
-        'wrapper' => '',
-        'class' => 'company_more',
       ),
     ),
   );
@@ -118,7 +108,6 @@ function features_companies_ds_layout_settings_info() {
         3 => 'field_company_adresse',
         4 => 'field_company_tel',
         5 => 'field_email',
-        6 => 'node_link',
       ),
     ),
     'fields' => array(
@@ -128,7 +117,6 @@ function features_companies_ds_layout_settings_info() {
       'field_company_adresse' => 'left',
       'field_company_tel' => 'left',
       'field_email' => 'left',
-      'node_link' => 'left',
     ),
     'classes' => array(),
     'wrappers' => array(
