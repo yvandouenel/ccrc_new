@@ -1822,6 +1822,10 @@ form.node-form body{
   float: right;
   clear: right;
 }
+.view-id-entreprises .field-name-field-secteur-activite{
+  float: right;
+  clear: right;
+}
 #main div#content .view-id-entreprises .field-name-node-link a{
   /*color: white;
   background: #4285B2 url(../images/icons/bgCompanyPlus.png) no-repeat 100% 100%;
