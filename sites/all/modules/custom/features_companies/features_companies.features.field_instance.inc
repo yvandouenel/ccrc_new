@@ -529,11 +529,9 @@ function features_companies_field_default_field_instances() {
       ),
       'list' => array(
         'label' => 'hidden',
-        'module' => 'shs',
-        'settings' => array(
-          'linked' => FALSE,
-        ),
-        'type' => 'shs_default',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_plain',
         'weight' => 3,
       ),
       'teaser' => array(
