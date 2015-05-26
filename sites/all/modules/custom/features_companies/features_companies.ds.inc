@@ -17,18 +17,50 @@ function features_companies_ds_field_settings_info() {
   $ds_fieldsetting->bundle = 'entreprises';
   $ds_fieldsetting->view_mode = 'list';
   $ds_fieldsetting->settings = array(
-    'title' => array(
+    'titre_url' => array(
       'weight' => '0',
       'label' => 'hidden',
       'format' => 'default',
-      'formatter_settings' => array(
-        'link' => '1',
-        'wrapper' => 'h3',
-        'class' => '',
-      ),
     ),
   );
   $export['node|entreprises|list'] = $ds_fieldsetting;
+
+  return $export;
+}
+
+/**
+ * Implements hook_ds_custom_fields_info().
+ */
+function features_companies_ds_custom_fields_info() {
+  $export = array();
+
+  $ds_field = new stdClass();
+  $ds_field->api_version = 1;
+  $ds_field->field = 'titre_url';
+  $ds_field->label = 'Titre-url';
+  $ds_field->field_type = 5;
+  $ds_field->entities = array(
+    'node' => 'node',
+  );
+  $ds_field->ui_limit = '';
+  $ds_field->properties = array(
+    'code' => array(
+      'value' => '<?php 
+$urlredirection = \'\';
+if(isset($entity->field_url_redirection[\'und\'][0][\'value\'])) $urlredirection = $entity->field_url_redirection[\'und\'][0][\'value\'];
+?>
+<?php if ($urlredirection): ?>
+        <h3><a href="<?php print($urlredirection); ?>">[node:title]</a></h3>
+<?php endif; ?>
+<?php if (!$urlredirection): ?>
+        <h3><a href="[node:url]">[node:title]</a></h3>
+<?php endif; ?>
+',
+      'format' => 'ds_code',
+    ),
+    'use_token' => 1,
+  );
+  $export['titre_url'] = $ds_field;
 
   return $export;
 }
@@ -102,7 +134,7 @@ function features_companies_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'left' => array(
-        0 => 'title',
+        0 => 'titre_url',
         1 => 'group_sub_title',
         2 => 'field_secteur_activite',
         3 => 'field_company_adresse',
@@ -111,7 +143,7 @@ function features_companies_ds_layout_settings_info() {
       ),
     ),
     'fields' => array(
-      'title' => 'left',
+      'titre_url' => 'left',
       'group_sub_title' => 'left',
       'field_secteur_activite' => 'left',
       'field_company_adresse' => 'left',

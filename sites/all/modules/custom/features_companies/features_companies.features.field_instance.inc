@@ -702,6 +702,59 @@ function features_companies_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-entreprises-field_url_redirection'
+  $field_instances['node-entreprises-field_url_redirection'] = array(
+    'bundle' => 'entreprises',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'Renseignez ici l\'url vers laquelle le titre (en format liste) de cette entreprise doit renvoyer. Pour plus de sécurité, il est préférable d\'entrer une url relative de type : /node/391 pour faire un lien vers la fiche de l\'hôtel "Le Beau Rivage" plutôt qu\'une url du style "/tourisme-et-loisirs/hotels/hôtellerie-beau-rivage". L\'avantage de la première méthode étant que le lien fonctionnera toujours même si le nom de l\'hôtel (ou de n\'importe quel type de contenu) venait à changer.',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 21,
+      ),
+      'home' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'list' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'node',
+    'field_name' => 'field_url_redirection',
+    'label' => 'url redirection',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 15,
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Adresse');
@@ -712,10 +765,12 @@ function features_companies_field_default_field_instances() {
   t('Facebook');
   t('Horaires d\'ouverture');
   t('Logo');
+  t('Renseignez ici l\'url vers laquelle le titre (en format liste) de cette entreprise doit renvoyer. Pour plus de sécurité, il est préférable d\'entrer une url relative de type : /node/391 pour faire un lien vers la fiche de l\'hôtel "Le Beau Rivage" plutôt qu\'une url du style "/tourisme-et-loisirs/hotels/hôtellerie-beau-rivage". L\'avantage de la première méthode étant que le lien fonctionnera toujours même si le nom de l\'hôtel (ou de n\'importe quel type de contenu) venait à changer.');
   t('Secteur d\'activité');
   t('Site internet');
   t('Twitter');
   t('Tél.');
+  t('url redirection');
 
   return $field_instances;
 }
