@@ -1478,6 +1478,9 @@ body.page-node-42 .webform-client-form .form-radios{ /*taille plus grande pour u
     float:left;
     margin:5px 0 20px 0;
 }
+#webform-client-form-1224 .webform-client-form input.form-radio{
+    margin:5px 0 20px 30px;
+}
 .webform-client-form .webform-component-managed_file{
     clear:both;
 }
