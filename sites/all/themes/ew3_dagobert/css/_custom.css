@@ -1420,7 +1420,7 @@ div.pratique_emploi a{
 }
 /*formulaire offres d'emploi **************************************************/
 .webform-client-form label{
-    width: 250px;
+    width: 280px;
     float:left;
     clear:left;
     text-align: right;
@@ -1434,7 +1434,7 @@ div.pratique_emploi a{
     width: auto;
 }
 .webform-client-form input{
-    width: 330px;
+    width: 300px;
     clear : right;
 }
 .webform-client-form input.webform-calendar{
@@ -1473,6 +1473,7 @@ body.page-node-42 .webform-client-form .form-radios{ /*taille plus grande pour u
     float:left;
     /*margin:5px 0 20px 0;*/
     white-space: nowrap;
+    margin-left: 40px;
 }
 .webform-client-form input.form-radio{
     float:left;
