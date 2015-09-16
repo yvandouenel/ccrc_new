@@ -22,7 +22,7 @@ function features_companies_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Entreprises - Communauté de Communes de la Région de Condrieu';
+  $handler->display->display_options['title'] = 'Annuaire des entreprises';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -161,7 +161,7 @@ function features_companies_views_default_views() {
   $handler->display->display_options['path'] = 'developpement_economique/entreprises';
   $translatables['entreprises'] = array(
     t('Master'),
-    t('Entreprises - Communauté de Communes de la Région de Condrieu'),
+    t('Annuaire des entreprises'),
     t('more'),
     t('Chercher'),
     t('Réinitialiser'),
